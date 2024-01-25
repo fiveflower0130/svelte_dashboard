@@ -32,10 +32,12 @@
     "svelte-check": "^1.5.2"
   },
   "dependencies": {
+    "chartjs-plugin-datalabels": "^2.2.0",
     "compression": "^1.7.1",
     "mdbsvelte": "^1.0.12",
     "sirv-cli": "^1.0.0",
     "svelte-chartjs": "^1.0.4",
-    "svelte-router-spa": "^6.0.2"
+    "svelte-router-spa": "^6.0.2",
+    "xlsx": "^0.18.5"
   }
 }

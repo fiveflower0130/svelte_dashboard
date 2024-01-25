@@ -1,14 +1,14 @@
 <script>
   import MDBCard from 'mdbsvelte/src/MDBCard.svelte';
   import MDBCardBody from 'mdbsvelte/src/MDBCardBody.svelte';
-  import MDBRow from 'mdbsvelte/src/MDBRow.svelte'
-  import MDBCol from 'mdbsvelte/src/MDBCol.svelte'
-  import MDBTable from 'mdbsvelte/src/MDBTable.svelte'
-  import MDBTableHead from 'mdbsvelte/src/MDBTableHead.svelte'
-  import MDBTableBody from 'mdbsvelte/src/MDBTableBody.svelte'
-  import MDBView from 'mdbsvelte/src/MDBView.svelte'
-
+  import MDBRow from 'mdbsvelte/src/MDBRow.svelte';
+  import MDBCol from 'mdbsvelte/src/MDBCol.svelte';
+  import MDBTable from 'mdbsvelte/src/MDBTable.svelte';
+  import MDBTableHead from 'mdbsvelte/src/MDBTableHead.svelte';
+  import MDBTableBody from 'mdbsvelte/src/MDBTableBody.svelte';
+  import MDBView from 'mdbsvelte/src/MDBView.svelte';
 </script>
+
 <MDBRow>
   <MDBCol md="12">
     <MDBCard class="mt-5">
@@ -17,7 +17,11 @@
       </MDBView>
       <MDBCardBody>
         <h3 class="mt-5 text-left"><strong>Basic examples</strong></h3>
-        <p>Using the most basic table markup, here’s how .table-based tables look in Bootstrap. All table styles are inherited in Bootstrap 4, meaning any nested tables will be styled in the same manner as the parent.</p>
+        <p>
+          Using the most basic table markup, here’s how .table-based tables look
+          in Bootstrap. All table styles are inherited in Bootstrap 4, meaning
+          any nested tables will be styled in the same manner as the parent.
+        </p>
         <MDBTable responsive>
           <MDBTableHead>
             <tr>
@@ -49,7 +53,12 @@
           </MDBTableBody>
         </MDBTable>
         <h3 class="mt-5 text-left"><strong>MDBTable head options</strong></h3>
-        <p>To change a background-color of thead (or any other element) use our color classes. If you are going to use a dark background you should also consider white text (to provide a proper contrast) by adding .text-white class.</p>
+        <p>
+          To change a background-color of thead (or any other element) use our
+          color classes. If you are going to use a dark background you should
+          also consider white text (to provide a proper contrast) by adding
+          .text-white class.
+        </p>
         <MDBTable responsive>
           <MDBTableHead color="primary-color" textWhite>
             <tr>
@@ -111,7 +120,10 @@
           </MDBTableBody>
         </MDBTable>
         <h3 class="mt-5 text-left"><strong>Striped rows.</strong></h3>
-        <p>Use prop striped to add zebra-striping to any table row within the table body</p>
+        <p>
+          Use prop striped to add zebra-striping to any table row within the
+          table body
+        </p>
         <MDBTable responsive striped>
           <MDBTableHead>
             <tr>
